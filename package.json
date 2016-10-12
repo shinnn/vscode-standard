@@ -1,13 +1,8 @@
 {
   "name": "standard",
-  "version": "0.1.4",
-  "displayName": "JavaScript \"Standard\" Style linter",
-  "description": "Lint JavaScript with \"JavaScript Standard Style\"",
-  "author": {
-    "name": "Shinnosuke Watanabe",
-    "email": "snnskwtnb@gmail.com",
-    "url": "https://github.com/shinnn"
-  },
+  "version": "0.2.0",
+  "displayName": "JS \"Standard\" Linter",
+  "description": "Lint JavaScript with \"JS Standard Style\"",
   "publisher": "shinnn",
   "repository": "https://github.com/shinnn/vscode-standard",
   "homepage": "https://github.com/shinnn/vscode-standard#readme",

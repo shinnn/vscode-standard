@@ -4,11 +4,11 @@ const path = require('path');
 
 const langServer = require('vscode-languageserver');
 const noop = require('nop');
-const eslint = require('eslint')
+const eslint = require('eslint');
 const StandardEngine = require('standard-engine').linter;
 
 const standard = new StandardEngine({
-  eslint: eslint,
+  eslint,
   eslintConfig: {
     configFile: path.join(__dirname, 'config.js')
   }
@@ -21,10 +21,10 @@ const documents = new langServer.TextDocuments();
 
 function parseSeverity(severity) {
   if (severity === 2) {
-    return 1
+    return 1;
   }
 
-  return 2
+  return 2;
 }
 
 function makeDiagnostic(problem) {
