@@ -40,19 +40,19 @@
     "test": "eslint --config @shinnn/node --fix config.js extension.js server.js"
   },
   "dependencies": {
-    "eslint": "3.7.1",
-    "eslint-config-standard": "6.2.0",
-    "eslint-config-standard-react": "4.2.0",
+    "eslint": "^3.7.1",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-config-standard-react": "^4.2.0",
     "eslint-plugin-promise": "^3.0.0",
-    "eslint-plugin-react": "6.4.1",
-    "eslint-plugin-standard": "2.0.1",
-    "nop": "1.0.0",
-    "standard-engine": "5.1.1",
-    "vscode-languageclient": "2.5.0",
-    "vscode-languageserver": "2.5.0"
+    "eslint-plugin-react": "^6.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "nop": "^1.0.0",
+    "standard-engine": "^5.1.1",
+    "vscode-languageclient": "^2.5.0",
+    "vscode-languageserver": "^2.5.0"
   },
   "devDependencies": {
-    "@shinnn/eslint-config-node": "3.0.0",
-    "vscode": "1.0.0"
+    "@shinnn/eslint-config-node": "^3.0.0",
+    "vscode": "^1.0.0"
   }
 }
