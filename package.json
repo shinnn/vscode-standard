@@ -40,16 +40,16 @@
     "test": "eslint --config @shinnn/node --fix config.js extension.js server.js"
   },
   "dependencies": {
-    "eslint": "^3.9.1",
+    "eslint": "^3.11.1",
     "eslint-config-standard": "^6.2.1",
     "eslint-config-standard-react": "^4.2.0",
-    "eslint-plugin-promise": "^3.3.1",
-    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.8.0",
     "eslint-plugin-standard": "^2.0.1",
     "nop": "^1.0.0",
     "standard-engine": "^5.1.1",
-    "vscode-languageclient": "^2.6.2",
-    "vscode-languageserver": "^2.6.1"
+    "vscode-languageclient": "^2.6.3",
+    "vscode-languageserver": "^2.6.2"
   },
   "devDependencies": {
     "@shinnn/eslint-config-node": "^3.0.0",
