@@ -1,6 +1,6 @@
 {
   "name": "standard",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "displayName": "JS \"Standard\" Linter",
   "description": "Lint JavaScript with \"JS Standard Style\"",
   "publisher": "shinnn",
